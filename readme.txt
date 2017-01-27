@@ -1,0 +1,7 @@
+- make_features.py (creates features)
+- visualize_features.py (shows 3d scatter plot of the test and train set)
+- tpot_train.py (tpot finds a ML model,runs for ~20-30 mins)
+- tpot_pipeline.py (ml model found by tpot)
+- tpot_pipeline2.py (ml model found by tpot)
+- nn_classifier.py (neural network classifier from tensorflow)
+- nn_regressor.py (neural network regressor built with tflearn)
