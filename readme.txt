@@ -1,4 +1,5 @@
-- make_features.py (creates features)
+- make_features_teams.py (creates team oriented features)
+- make_features_players.py (creates player oriented features)
 - visualize_features.py (shows 3d scatter plot of the test and train set)
 - tpot_train.py (tpot finds a ML model,runs for ~20-30 mins)
 - tpot_pipeline.py (ml model found by tpot)

@@ -16,7 +16,7 @@ feature_columns = [tf.contrib.layers.real_valued_column("", dimension=5)]
 
 #create, train, evaluate neural network
 classifier = tf.contrib.learn.DNNClassifier(feature_columns=feature_columns, hidden_units=[10, 10], n_classes=2)
-classifier.fit(x = train_features, y = train_labels, steps = 2000)
+classifier.fit(x = train_features, y = train_labels, steps = 4000)
 accuracy_score = classifier.evaluate(x=test_features, y=test_labels)["accuracy"]
 
 #make predictions for test set
