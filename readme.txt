@@ -6,3 +6,4 @@
 - tpot_pipeline2.py (ml model found by tpot)
 - nn_classifier.py (neural network classifier from tensorflow)
 - nn_regressor.py (neural network regressor built with tflearn)
+- nn_regressor_gridsearch.py (search for neural network parameters)
